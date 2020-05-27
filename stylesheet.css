@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500&display=swap');
+
+
+/* font-family: 'Raleway', sans-serif; */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4b4b79;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  margin: 5% auto;
+  max-width: 70%;
+  height: auto;
+  text-align: center;
+}
+
+#intro {
+  margin-top: 20px;
+}
+
+.form {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.form h1, p {
+  margin: 20px;
+}
+
+p {
+  font-size: 17px;
+}
+
+form {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+
+.form-group label {
+  display: block;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 5px;
+}
+
+/* reusable declarations */
+.form-group input, form #submit {
+  width: 100%;
+  padding: 10px;
+}
+
+footer p, form #submit {
+  color: #fff;
+}
+
+.terms a:hover,
+form #submit {
+  text-decoration: none;
+}
+
+
+.form-group input {
+  display: inline-block;
+  margin-bottom: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid black;
+}
+
+form #submit {
+  display: inline-block;
+  background-color: rgba(31, 138, 97, 0.877);
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 0;
+}
+
+form #submit:hover {
+  background-color: rgba(31, 138, 97, 0.747);
+  transition: ease 1s;
+  -webkit-transition: ease 1s;
+  -moz-transition: ease 1s;
+  -ms-transition: ease 1s;
+  -o-transition: ease 1s;
+}
+
+.terms p, a{
+  font-size: 13px;
+}
+
+
+footer {
+  text-align: center;
+  word-spacing: 5px;
+}
+
+footer a {
+  color: rgba(34, 248, 177, 0.877);
+}
